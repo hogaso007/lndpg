@@ -307,12 +307,8 @@
     }
 
     /* STATS */
-<<<<<<< HEAD
- .stats{
-=======
 
     .stats{
->>>>>>> 2395953e7df598640f92ee8d58fa36cb134ac29c
       padding:100px 8%;
       background:
       linear-gradient(45deg,#ff4ecd,#7b61ff);
@@ -334,108 +330,14 @@
       font-size:20px;
       font-weight:500;
     }
-<<<<<<< HEAD
- /* CTA */
-
-    .cta{
-      padding:120px 8%;
-      text-align:center;
-      background:
-      linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.75)),
-      url('https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1600&auto=format&fit=crop') center/cover;
-    }
-
-    .cta h2{
-      font-size:60px;
-      margin-bottom:25px;
-    }
-
-    .cta p{
-      max-width:800px;
-      margin:auto;
-      color:#e2e2e2;
-      line-height:1.8;
-      font-size:21px;
-      margin-bottom:40px;
-    }
-
-    /* CONTACT */
-
-    .contact{
-=======
 
     /* GALLERY */
 
     .gallery{
->>>>>>> 2395953e7df598640f92ee8d58fa36cb134ac29c
       padding:110px 8%;
       background:#0f1118;
     }
 
-<<<<<<< HEAD
-    .contact-container{
-      display:grid;
-      grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-      gap:50px;
-      align-items:center;
-    }
-
-    .contact-info h2{
-      font-size:48px;
-      margin-bottom:20px;
-    }
-
-    .contact-info p{
-      color:#c5c5c5;
-      line-height:1.8;
-      margin-bottom:18px;
-    }
-
-    .contact-form{
-      background:#131620;
-      padding:45px;
-      border-radius:25px;
-      border:1px solid rgba(255,255,255,0.05);
-    }
-
-    .contact-form input,
-    .contact-form textarea{
-      width:100%;
-      padding:18px;
-      margin-bottom:20px;
-      border:none;
-      border-radius:15px;
-      background:#1c1f2b;
-      color:white;
-      outline:none;
-      font-size:15px;
-    }
-
-    .contact-form textarea{
-      height:140px;
-      resize:none;
-    }
-
-    .contact-form button{
-      width:100%;
-      padding:18px;
-      border:none;
-      border-radius:35px;
-      background:linear-gradient(45deg,#ff4ecd,#7b61ff);
-      color:white;
-      font-size:17px;
-      font-weight:700;
-      cursor:pointer;
-      transition:0.4s;
-    }
-
-    .contact-form button:hover{
-      transform:translateY(-4px);
-    }
-
-    /* FOOTER */
-
-=======
     .gallery-grid{
       display:grid;
       grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
@@ -493,4 +395,83 @@
     .testimonial h4{
       color:#00f5ff;
     }
->>>>>>> 2395953e7df598640f92ee8d58fa36cb134ac29c
+   footer{
+      background:#06070a;
+      padding:40px 20px;
+      text-align:center;
+      border-top:1px solid rgba(255,255,255,0.05);
+    }
+
+    footer p{
+      color:#a0a0a0;
+      margin-bottom:12px;
+    }
+
+    .socials{
+      margin-top:15px;
+    }
+
+    .socials a{
+      display:inline-flex;
+      justify-content:center;
+      align-items:center;
+      width:45px;
+      height:45px;
+      border-radius:50%;
+      background:#131620;
+      color:white;
+      text-decoration:none;
+      margin:0 8px;
+      transition:0.4s;
+    }
+
+    .socials a:hover{
+      background:linear-gradient(45deg,#ff4ecd,#7b61ff);
+      transform:translateY(-4px);
+    }
+
+    /* ANIMATION */
+
+    @keyframes fadeUp{
+      from{
+        opacity:0;
+        transform:translateY(40px);
+      }
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    /* RESPONSIVE */
+
+    @media(max-width:768px){
+
+      nav{
+        display:none;
+      }
+
+      .hero h1{
+        font-size:48px;
+      }
+
+      .hero p{
+        font-size:18px;
+      }
+
+      .section-title h2{
+        font-size:38px;
+      }
+
+      .cta h2{
+        font-size:42px;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- HEADER -->
